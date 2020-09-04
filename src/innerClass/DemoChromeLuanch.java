@@ -8,7 +8,7 @@ public class DemoChromeLuanch {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", ".\\Software\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.google.com/");
 		driver.close();
 	}
 
