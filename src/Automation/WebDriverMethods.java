@@ -15,6 +15,7 @@ public class WebDriverMethods {
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement day = driver.findElement(By.id("day"));
+		day.click();
 
 	}
 }
