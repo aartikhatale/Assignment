@@ -25,8 +25,8 @@ public class AssertDemo {
 		Assert.assertEquals(l1, l2);
 		System.out.println("list done");
 		SoftAssert sa = new SoftAssert();
-		sa.assertEquals(true, false);
 		sa.assertAll();
+		sa.assertEquals(true, false);
 		System.out.println("done");
 
 	}
